@@ -1,4 +1,4 @@
-package com.genetic;
+package com.genetictest;
 import org.junit.Test;
 
 import java.util.HashSet;
@@ -6,9 +6,12 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Random;
 
+import com.genetic.*;
+
+
 import static org.junit.Assert.*;
 
-public class EnvironnementTest {
+public class EnvironmentTest {
 
     @Test
     public void testingRandomNextDouble(){
@@ -78,7 +81,7 @@ public class EnvironnementTest {
         String answer = "Tracer does well with Heroes who have strong waveclear, who can also deal area damage over time.";
         int nbOfElement = (int)1000;
         int maxScore = answer.length();
-        double newPopRatio = 1;
+        double newPopRatio = .5;
         double mutationRation = 0.0075;
 
         Environnement testingEnvironnement = new Environnement(answer,nbOfElement,newPopRatio,mutationRation);

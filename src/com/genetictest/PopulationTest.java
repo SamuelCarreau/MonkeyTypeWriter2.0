@@ -1,10 +1,9 @@
-package com.genetic;
+package com.genetictest;
 
 import org.junit.Test;
-
 import java.util.Iterator;
-
 import static org.junit.Assert.*;
+import com.genetic.*;
 
 public class PopulationTest {
 

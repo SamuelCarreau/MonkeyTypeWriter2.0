@@ -1,7 +1,7 @@
-package com.genetic;
+package com.genetictest;
 
-import org.junit.Assert;
 import org.junit.Test;
+import com.genetic.*;
 
 import static org.junit.Assert.*;
 
