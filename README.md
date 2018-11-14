@@ -1,5 +1,4 @@
 # MonkeyTypeWriter2.0
-Genetic Algorithms
 My First Try with Genetic Algorithm and first post in github
 
 I take inspiration from this Youtube video : https://www.youtube.com/watch?v=9zfeTw-uFCw
